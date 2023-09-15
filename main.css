@@ -1,0 +1,62 @@
+:root{
+--amarelo: #f7c827;
+--dark:#3e3e3f;
+--brown: #8c7651;
+--gray: #a2a5a7;
+--blue-gray: #828cab;
+--fonte: 'Lobster', cursive;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transform: 0.3;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;;
+    background: var(--dark);
+    height: 8vh;
+}
+
+main{
+    background-color: #828cab;
+    background-size: cover;
+    height: 92vh;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+
+
+
