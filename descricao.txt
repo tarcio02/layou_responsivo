@@ -1,1 +1,5 @@
-neste commit foi criado um menu navbar 
+neste commit foi realizado a finalização do projeto. 
+este projeto constitui-se na criação de um layout resposivo capaz de ser visualizado com perfeição e c
+clareza dos itens e seus espços necessarios para se manterem organizados na tela 
+a marcação css permite o layout se adpatar em telas de até 640 px para smartphones, até 1023 para ser 
+visualizdas em telas de tablets e a partir de 1024 para computadores e notbookes
