@@ -1,15 +1,4 @@
-:root{
-    --amarelo: #f7c827;
-    --dark:#3e3e3f;
-    --brown: #8c7651;
-    --gray: #a2a5a7;
-    --blue-gray: #828cab;
-    --fonte: 'Lobster', cursive;
-    }
-    
-    
-    
-    
+
     * {
         margin: 0;
         padding: 0;
@@ -144,15 +133,17 @@
     .lista-produtos{
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .lista-produtos li{
         list-style: none;
-        max-width: 30%;
+        max-width: 22%;
         margin-bottom: 24px;
         box-shadow: 10px 10px 10px #808080;
         border-radius: 6px;
-
+        margin: 0 20px;
+        margin-bottom: 25px;
     }
 
     .lista-produtos li:hover{
@@ -168,10 +159,6 @@
     .lista-produtos li img{
         max-width: 100%;
         max-height: 50vh;
-    }
-
-    .central{
-        margin: 0 5%;
     }
 
     .lista-produtos button{
@@ -238,14 +225,13 @@
         }
 
         .conteudo {
-            display: flex;
+            display: block;
         }
 
         .sobre{
             max-width: 50%;
             display: block;
             margin-top: 10vh;
-            margin-right: 10px;
             text-align: center;
         }
 
@@ -264,20 +250,38 @@
 
         .lista-produtos li{
             max-width: 40%;
-            margin: 15px 15px;
+            margin: 25px 15px;
             }
 
-            .central{
-                margin: 0;
-            }
             .produtos h2{
                 margin-bottom: 0;
             }
 
-            @media (max-width: 670px){
-                .sobre{
-                    max-width: 40%;
+            @media (max-width: 412px){
+                .conteudo{
+                    display: block;
                 }
+
+                .sobre{
+                    max-width: 100%;
+                    margin:auto;
+                    margin-top: 5vh;
+                }
+
+                .produtos{
+                    margin-top: 5vh;
+                }
+
+                .produtos h2{
+                    margin-bottom: 1vh;
+                }
+
+                .lista-produtos li{
+                    max-width: 80%;
+                    margin: auto;
+                    margin-bottom: 30px;
+                }
+
             }
     }
 

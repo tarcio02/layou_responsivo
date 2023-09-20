@@ -1,4 +1,4 @@
-neste commit foi realizado a finalização do projeto. 
+neste commit foi realizado a correção do layout do para se adequar melhor nos dispositivo moveis. 
 este projeto constitui-se na criação de um layout resposivo capaz de ser visualizado com perfeição e c
 clareza dos itens e seus espços necessarios para se manterem organizados na tela 
 a marcação css permite o layout se adpatar em telas de até 640 px para smartphones, até 1023 para ser 
